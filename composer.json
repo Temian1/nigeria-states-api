@@ -1,0 +1,21 @@
+{
+    "name": "kikter/states-and-local-govt",
+    "description": "Populates your DB with all the states in Nigeria and their local governments. It also creates the models for you",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adeala",
+            "email": "kikismedia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bodunde\\SLG\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.9|^7.0|^8.0|^9.0"
+    }
+}
